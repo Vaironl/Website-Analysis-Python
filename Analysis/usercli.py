@@ -3,6 +3,9 @@
 # the other being one or more URLs
 
 class UserCLI:
-    def method(*args):
+    def analyzewebsite(*args):
+        if len(args) < 2:
+            raise TypeError("There must be at least 2 arguments")
         for argument in args:
-            print "test"
+            pass
+
