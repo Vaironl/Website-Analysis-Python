@@ -1,7 +1,13 @@
 # has mutliple pages
 
+from Analysis import webpage
 
-def validate_local_path(self, path):
+web_pages = []
+urls = []
+mapped_urls = []
+local_path = ""
+
+def validate_local_path(self):
     # does the local path exist?
     # is the local path readable? (No weird permission errors)
     pass
