@@ -8,7 +8,7 @@ class UserCLI:
     def setup_test(self, in_argv):
         """Helps to test class"""
         global argv
-        argv = in_argv
+        # argv = in_argv
 
         pass
 
